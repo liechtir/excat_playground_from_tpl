@@ -1,0 +1,48 @@
+{
+  "metadata": {
+    "projectType": "doc"
+  },
+  "templates": [
+    {
+      "name": "test-page",
+      "urls": [
+        "https://raegebogeverein.ch/test-seite-remo/"
+      ],
+      "coverageGaps": [],
+      "description": "Simple content page with a title bar, a main article area (text + captioned image) alongside a sidebar of upcoming events, and a footer widget area",
+      "blocks": [
+        {
+          "name": "widget",
+          "instances": [
+            "section.newsbox",
+            "#newsbox-2"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Title bar",
+          "selector": "#main > div.stretch_full.container_wrap.alternate_color.light_bg_color.title_container",
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            "#main > div.title_container h1"
+          ]
+        },
+        {
+          "id": "section-2",
+          "name": "Main content and sidebar",
+          "selector": "#main > div.container_wrap.container_wrap_first.main_color.sidebar_right",
+          "style": null,
+          "blocks": [
+            "widget"
+          ],
+          "defaultContent": [
+            "article.post-entry .entry-content"
+          ]
+        }
+      ]
+    }
+  ]
+}
