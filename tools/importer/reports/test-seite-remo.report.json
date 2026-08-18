@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "url": "https://raegebogeverein.ch/test-seite-remo/",
+  "path": "test-seite-remo",
+  "timestamp": "2026-08-18T08:50:38.346Z",
+  "title": "Test-Seite Remo – Rägebogeverein",
+  "template": "test-page",
+  "blocks": [
+    "widget",
+    "widget"
+  ]
+}

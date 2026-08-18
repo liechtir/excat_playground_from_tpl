@@ -1,0 +1,10 @@
+{
+  "type": "doc",
+  "sites": {
+    "excat_playground_from_tpl": {
+      "previewOrg": "liechtir",
+      "previewSite": "excat_playground_from_tpl",
+      "libraryUrl": "https://main--sta-boilerplate--aemdemos.aem.page/tools/sidekick/library.json"
+    }
+  }
+}
