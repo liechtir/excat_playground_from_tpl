@@ -1,0 +1,11 @@
+{
+  "status": "success",
+  "url": "http://localhost:3000/drafts/sample-page",
+  "path": "sample-page",
+  "timestamp": "2026-08-18T09:25:40.627Z",
+  "title": "Sample Page",
+  "template": "sample-page",
+  "blocks": [
+    "cards"
+  ]
+}
